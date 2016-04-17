@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>dating</head>
+	<body>
+		<h1>Please Enter Your Details For Our Dating Website</h1>
+		<form action="http://ihome.ust.hk/~rossiter/cgi-bin/show_everything.php" method="post">
+			<fieldset>
+				<legend>your face</legend>
+				<label for="pic">Your Image:</label>
+				<input type="file" id="pic" name="pic"><br>
+				<label for="avatar">image perview:</label>
+				<input id="preview" id="avatar" name="avatar">
+			</fieldset>
+
+			<fieldset>
+				<legend>Your General Details</legend>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name"><br>
+				<label for="gender">Gender:</label>
+				<input type="ratio" id="grnder" name="gender"><br>
+				<label for="age">Age:</label>
+				<input type="number" id="age" name="age"><br>
+				<label for="birth">Date of Birth</label>
+				<input type="date" id="birth" name="birth"><br>
+				<label for="color">Favorate Color</label>
+				<input type="color" id="color" name="color"><br>
+				<label for="cities">which country</label>
+				<select id="cities" name="cities">
+					<option>None</option>
+					<option>Hongkong</option>
+					<option>Beijing</option>
+					<option>melbourn</option>
+					<option>new york</option>
+					<option>london</option>
+				</select>
+			</fieldset>
+
+			<fieldset>
+				<legend>indicators</legend>
+				<label for="height">Height:</label>
+				Short<input type="range" id="height" name="height" min="0" max="100">high<br>
+				<label for="salary">Salary</label>
+				poor<input type="range" id="salary" name="salary" min="0" max="100">rich
+
+			</fieldset>
+
+			<fieldset>
+				<legend>Your Contact Information</legend>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br>
+				<label for="phone">Telephone Number:</label>
+				<input type="tel" id="phone" name="phone"><br>
+				<label for="address">Address:</label>
+				<textarea rows="3" id="address" name="address">please type here</textarea><br>
+				<label for="contact">Method to contact you:</label>
+				<input type="checkbox" id="contact" name="contact">email
+				<input type="checkbox" id="contact" name="contact">telephone
+				<input type="checkbox" id="contact" name="contact">home
+
+			</fieldset>
+			<input type="submit" value="submit">
+		</form>
+		
+	</body>
+</html>
